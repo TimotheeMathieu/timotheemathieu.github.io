@@ -15,7 +15,7 @@ Title: Home
 &nbsp;
 
 ### \# Occupation
-Post-Doc.
+Post-Doc at [SCOOL](https://team.inria.fr/scool/).
 
 ### \# Keywords
 Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
