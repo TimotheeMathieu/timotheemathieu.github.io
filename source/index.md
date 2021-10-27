@@ -14,6 +14,7 @@ Post-Doc.
 Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
 <img style="float: right;" src="/histo.png"; width="200">
 
+
 ### \# Contact
 
 Inria Lille, Nord Europe
@@ -22,4 +23,4 @@ France
 
 Mail: timothee.mathieu at inria.fr
 
-Find my CV [here](/assets/cv.pdf).
+Find my CV [here](/source/assets/cv.pdf).
