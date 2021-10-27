@@ -6,7 +6,7 @@ Title: Home
 
 ---
 
-<img src="/histo.png">
+<img src="/assets/histo.png">
 &nbsp;
 
 ### \# Occupation
