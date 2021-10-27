@@ -11,9 +11,8 @@ Title: Home
 Post-Doc.
 
 ### \# Keywords
-Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning. ![](/histo.svg)
-
-<img src="/histo.png">
+Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
+<img style="float: right;" src="/histo.png">
 
 ### \# Contact
 
