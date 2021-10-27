@@ -12,7 +12,7 @@ Post-Doc.
 
 ### \# Keywords
 Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
-<img style="float: right;" src="/histo.png">
+<img style="float: right;" src="/histo.png"; width="200">
 
 ### \# Contact
 
