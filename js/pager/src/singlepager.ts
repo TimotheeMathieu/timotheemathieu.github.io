@@ -35,7 +35,7 @@ export default class Pager {
     /**
      * Change page
      * @param href the href URL
-     */
+
     const switchTo = (HTMLText, callback: () => void = null) => {
       // Create DOM Object from loaded HTML
       const doc = document.implementation.createHTMLDocument('')
@@ -67,7 +67,7 @@ export default class Pager {
         window.document.title = newTitle
         callback && callback()
       })
-    }
+    }*/
 
 
     const handleMouseOver = (e: MouseEvent) => {
@@ -163,7 +163,7 @@ export default class Pager {
   /**
    * Check if the element that mouse overed is or is child of `<a>`,
    * and its `href` should be load
-   * @param el 
+   * @param el
    */
   private _isLegalLink(el: HTMLAnchorElement): boolean {
     const loc = window.location
@@ -248,5 +248,3 @@ function copyScriptTag(scr) {
   n.text = scr.text
   return n
 }
-
-
