@@ -29,4 +29,4 @@ France
 
 Mail: timothee.mathieu at inria.fr
 
-Find my CV [here](https://timotheemathieu.github.io/assets/cv.pdf).
+Find my CV [here](/assets/cv.pdf).
