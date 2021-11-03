@@ -20,4 +20,4 @@ Here is a small notebook to illustrate some of the applications developped durin
 
 ### \# Pet project
 
-As a researcher, we use a lot of inequalities that we have to find and refind in old books. I decided to store them all in a small wiki that you can find [here](https://timotheemathieu.github.io/inequalitieswiki/)
+As a researcher, we use a lot of inequalities that we have to find and refind in old books. I decided to store some of them in a small wiki (powered by tiddlywiki, a very good personal wiki software) that you can find [here](https://timotheemathieu.github.io/inequalitieswiki/).
