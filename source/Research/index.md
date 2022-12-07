@@ -11,6 +11,8 @@ Title: Research
 1. Robust statistics
 2. Machine Learning
 3. M-estimators
+4. Non-parametric testing
+5. Bandits and Sequential testing
 
 ### \# Libraries
 
