@@ -20,7 +20,7 @@ Journal of the IMA* [arXiv:1910.07485][RERM_arxiv]
 1. MONK -- Outlier-Robust Mean Embedding Estimation by Median-of-Means, with  Matthieu Lerasle, Zoltan Szabo, and Guillaume Lecué, (2019) [arXiv:1802.04784][MONK_arxiv] or [ICML paper][MONK_ICML]
 2. Topics in robust statistical learning, with  Claire Brécheteau, Edouard Genetay and Adrien Saumard, published in ESAIM: PROCEEDINGS AND SURVEYS [HAL][mass]
 3. Bandits Corrupted by Nature: Lower Bounds on Regret and Robust Optimistic Algorithm, with O. Maillard and D. Basu, (2022), preprint [arxiv:2203.03186][Cor_bandits]
-
+4. CRIMED: Lower and Upper Bounds on Regret for Bandits with Unbounded Stochastic Corruption, with S. Agrawal, O. Maillard and D. Basu, (2023), <a href="/assets/crimed.pdf" target="_blank">preprint here</a>.
 
 [MOMRM_arxiv]: https://arxiv.org/abs/1808.03106
 [RERM_arxiv]: https://arxiv.org/abs/1910.07485
