@@ -29,3 +29,4 @@ Journal of the IMA* [arXiv:1910.07485][RERM_arxiv]
 [EJS]: https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-1/Concentration-study-of-M-estimators-using-the-influence-function/10.1214/22-EJS2030.full
 [these_hal]: https://hal-universite-paris-saclay.archives-ouvertes.fr/tel-03132439v1
 [mass]: https://hal.archives-ouvertes.fr/hal-03605702v1
+[Cor_bandits]: https://arxiv.org/abs/2203.03186
