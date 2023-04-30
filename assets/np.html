@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>np.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<head><style type="text/css">
+********************************************
+ * Copied/forked from white-clean org-mode theme
+ *****************************************************/
+
+
+
+/* Body resets
+   -------------------------------------------------- */
+x-sizing:  border-box;
+        -moz-box-sizing:  border-box;
+             box-sizing:  border-box;
+ }
+ html, body {
+     margin:  0;
+     padding:  0;
+ }
+ html {
+     font-size:  62.5%;
+ }
+ body {
+     padding:  20px;
+     font-family:  Menlo, Monaco, monospace;
+     font-size:  14px;
+     color:  #111;
+     background-color:  #fff;
+ }
+
+
+ a {
+     font-weight:  inherit;
+     line-height:  inherit;
+     color:  #2e86c1;
+     text-decoration:  none;
+ }
+
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+p {
+     margin:  0 1em 20px; display: inline;
+ }
+ p::before {content: ' '; display: block; }
+ h1, h2, h3, h4, h5, h6 {
+     position:  relative;
+     margin:  5px 0 5px;
+     font-size:  16px;
+     font-weight:  normal;
+     line-height:  1.1;
+     color:  #111;
+     text-rendering:  optimizeLegibility;
+     display: inline;
+ }
+
+ 
+ .outline-1, .outline-2, .outline-3, .outline-4, .outline-5, .outline-6 { margin-left: 3em;}
+ h1 {
+ 	font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+     position:  absolute;
+     top:  auto;
+     color:  #111;
+     display:  none;
+ }
+ h1:before {
+     content:  "";
+     left:  -1em;
+ }
+ h2:before, h3:before, h4:before, h5:before, h6:before {
+     content:  "*";
+     color: #528fd1;
+     left:  -1em;
+     font-weight: bold;
+ }
+
+
+ 
+ i, em, b, strong {
+     padding-left:  .1em;
+     padding-right:  .1em;
+ }
+ b, strong {
+     font-weight:  bold;
+     color:  #333;
+ }
+ b:before, b: after, strong:before, strong: after {
+     content:  "*";
+ }
+ i:before, i: after, em:before, em: after {
+     content:  "/";
+ }
+ hr {
+     margin:  0;
+     border:  0;
+ }
+ hr: after {
+     display:  block;
+     margin:  20px 0;
+     content:  "----------------------------------------------------------------";
+     color:  #ccc;
+ }
+ ul, ol {
+     padding:  1em;
+     margin:  0px 0 20px;
+ }
+ code, pre {
+     font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
+ }
+ code {
+     color:   #528fd1;
+ }
+ code:before, code: after {
+     content:  "=";
+     color:  #ccc;
+ }
+ pre {
+     display:  block;
+     margin:  0 0 14px;
+     padding:  15px;
+     border-radius:  3px 3px 3px 3px;
+     font-size:  17px;
+     line-height:  28px;
+     background-color:  #f5f5f5;
+     white-space:  pre;
+     white-space:  pre-wrap;
+     word-break:  break-all;
+     word-wrap:  break-word;
+ }
+ blockquote {
+     padding:  0 0 0 20px;
+     margin:  0 30px 20px -22.5px;
+     color:  #999;
+     border-left:  8px solid #e5e5e5;
+ }
+ blockquote p: last-child {
+     margin-bottom:  0;
+ }
+ img {
+     display:  block;
+     margin:  0;
+     border-radius:  5px;
+ }
+
+ sup a:before {
+     content:  "[";
+ }
+ sup a: after {
+     content:  "]";
+ }
+ a: hover {
+     text-decoration:  underline;
+ }
+ table {
+     line-height:  2.5;
+     margin-bottom:  15px;
+     max-width:  100%;
+     width:  100%;
+ }
+ table td, table th {
+     padding:  0 15px;
+ }
+ table th.left, table td.left {
+     text-align:  left;
+ }
+ table th.right, table td.right {
+     text-align:  right;
+ }
+ /******************************************************/
+ /* body */
+ body {
+     margin:  0 auto;
+     max-width:  60em;
+ }
+ /* head */
+ .masthead {
+     color:  #888;
+ }
+ .masthead: after {
+     display:  block;
+     content:  '----------------------------------------------------------------';
+     margin:  10px 0;
+     color:  #ccc;
+ }
+ .masthead a {
+     color:  #333;
+ }
+ .masthead ul {
+     list-style:  none;
+ }
+ .masthead li {
+     display:  inline-block;
+ }
+ .masthead li + li:before {
+     display:  inline-block;
+     content:  "\00B7 \00a0";
+     color:  #ccc;
+ }
+ /* searchform*/
+ #searchform {
+     position:  absolute;
+     top:  54px;
+     right:  30.4%;
+ }
+ #searchform #s {
+     background:  url("/media/img/search.png") no-repeat 5px 6px;
+     box-shadow:  inset 0 1px 1px rgba(0,0,0,0.1);
+     border:  1px solid #ddd;
+     border-radius:  2px;
+     -moz-border-radius:  2px;
+     width:  90px;
+     height:  30px;
+     line-height:  12px;
+     padding:  4px 10px 4px 28px;
+ 
+     -webkit-transition-duration:  400ms;
+     -webkit-transition-property:  width, background;
+     -webkit-transition-timing-function:  ease;
+     -moz-transition-duration:  400ms;
+     -moz-transition-property:  width, background;
+     -moz-transition-timing-function:  ease;
+     -o-transition-duration:  400ms;
+     -o-transition-property:  width, background;
+     -o-transition-timing-function:  ease;
+ }
+ #searchform #s: focus {
+     background-color:  #f9f9f9;
+     width:  160px;
+ }
+ .masthead img.avatar {
+     position:  relative;
+     float:  right;
+     margin-top:  -100px;
+     margin-bottom:  -100%;
+     margin-right:  10%;
+     width:  200px;
+     background-color:  #fff;
+ }
+ /* post */
+ .post {
+     position:  relative;
+ }
+ .post: after {
+     display:  block;
+     content:  "----------------------------------------------------------------";
+     color:  #ccc;
+ }
+ .post img {
+     max-width:  100%;
+ }
+ .post li {
+     list-style:  none outside none;
+ }
+ .post ul > li:before {
+     content:  "- ";
+     margin-left:  -1.25em;
+     color:  #ccc;
+ }
+ .post ol {
+     counter-reset:  o-list;
+ }
+ .post ol > li:before {
+     content:  counter(o-list) ") ";
+     counter-increment:  o-list;
+     margin-left:  -1.85em;
+     color:  #ccc;
+ }
+ 
+ /* special for li in pre */
+ .post pre li {
+     list-style-type:  decimal;
+ }
+ 
+ .post pre li:before {
+     display:  none;
+ }
+ 
+ /* meta info */
+ .post-info {
+     display:  inline-block;
+     margin:  -10px 0 -10px;
+     color:  #999;
+ }
+ .post-info + .post-info:before {
+     content:  "\2223 \00a0";
+ }
+ .post-meta: after {
+     content:  "----------------------------------------------------------------";
+     display:  block;
+     margin-top:  -1px;
+     color:  #ccc;
+ }
+ .exp { position: fixed; left: 0em; top:0em;padding: 5px;; color: #777;
+     border: 1px solid #e1e1e8;
+     -webkit-box-shadow:  0 0 1em #777777;
+     -moz-box-shadow:  0 0 1em #777777;
+     -webkit-border-bottom-left-radius:  5px;
+     -moz-border-radius-bottomleft:  5px;
+     text-align:  center;
+     z-index:  200;
+     background-color: #eee;
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+ }
+ .exp2 { position: fixed; left: 0em; top:0em; padding: 5px;; color: #777;
+     border: 1px solid #e1e1e8;
+     -webkit-box-shadow:  0 0 1em #777777;
+     -moz-box-shadow:  0 0 1em #777777;
+     -webkit-border-bottom-left-radius:  5px;
+     -moz-border-radius-bottomleft:  5px;
+     text-align:  center;
+     z-index:  200;
+     background-color: #eee;
+     padding-top: 0.5em;
+     padding-bottom: 0.5em;
+ }
+ /* table of content */
+ #table-of-contents {
+     position:  fixed;
+     right:  0em;
+     top:  4em;
+     border: 1px solid #e1e1e8;
+     -webkit-box-shadow:  0 0 1em #777777;
+     -moz-box-shadow:  0 0 1em #777777;
+     -webkit-border-bottom-left-radius:  5px;
+     -moz-border-radius-bottomleft:  5px;
+     text-align:  center;
+     /* ensure doesn't flow off the screen when expanded */
+     max-height:  80%;
+     overflow:  auto;
+     z-index:  200;
+     background-color: #eee;
+     width: 20em;
+ }
+ 
+ #table-of-contents h2 {
+     width:  20em;
+     font-weight:  normal;
+     padding-left:  0.5em;
+     padding-top:  0.05em;
+     padding-bottom:  0.05em;
+ }
+ 
+ #table-of-contents ul {
+     margin-left:  14pt;
+     margin-bottom:  10pt;
+     padding:  0
+ }
+ 
+ #table-of-contents li {
+     padding:  0;
+     margin:  1px;
+     list-style:  none;
+ }
+ 
+ #table-of-contents ul>: first-child {
+     color:  blue;
+ }
+ 
+ #table-of-contents #text-table-of-contents {
+     display:  block;
+     text-align:  left;
+ }
+ 
+ #table-of-contents: hover #text-table-of-contents {
+     display:  block;
+     padding:  0.5em;
+     margin-top:  -1.5em;
+ }
+ 
+ /* footer */
+ .footer {
+     margin:  80px 0 0;
+     text-align:  center;
+     font-size:  15px;
+     color:  #999;
+ }
+ .footer > p {
+     margin:  0;
+     line-height:  1.5;
+ }
+ .footpara {
+     display:  inline;
+ }
+ 
+ /* Responsive
+    -------------------------------------------------- */
+ 
+ @media (min-width:  768px) {
+     /* Increase body padding and font-sizes */
+     body {
+         padding:  30px;
+         font-size:  16px;
+     }
+     h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+         display:  inline;
+     }
+ }
+ 
+ @media (min-width:  1024px) {
+     body {
+         padding:  30px;
+         margin-left: 75pt;     
+     }
+ }
+ details > *:not(summary){
+  margin-left: 1em; 
+ }
+ summary {
+   display: inline list-item;
+   list-style: disclosure-closed inside;
+   color: #528fd1;
+   margin-left: 0.5em;
+ }
+ details {
+     display: inline;
+ }
+ details[open] > summary {
+   list-style: disclosure-open inside;
+   margin-left: 2em;
+   display: list-item;
+ }
+
+ div[id^='text-'] { display:inline}
+ details[open] {display: block; }
+  </style>
+</head><a href='#/' id='expAll' class='exp'>Expand All</a>
+
+<script type="text/javascript">
+ document.addEventListener('DOMContentLoaded',function() {
+ var elementExists = document.getElementById("table-of-contents");
+ if (elementExists){ elementExists.insertAdjacentHTML( 'beforeend',"<a href='#/' id='expAll' class='exp'>Expand All</a>")}})
+// Reference the toggle link
+var xa = document.getElementById('expAll');
+
+// Register link on click event
+xa.addEventListener('click', function(e) {
+
+  /* Toggle the two classes that represent "state"
+  || determined when link is clicked
+  */
+  e.target.classList.toggle('exp');
+  e.target.classList.toggle('exp2');
+
+  // Collect all <details> into a NodeList
+  var details = document.querySelectorAll('details');
+
+  /* Convert NodeList into an array then iterate
+  || throught it...
+  */
+  Array.from(details).forEach(function(obj, idx) {
+
+    /* If the link has the class .exp...
+    || make each <detail>'s open attribute true
+    */
+    if (e.target.classList.contains('exp')) {
+      obj.open = true;
+      // Otherwise make it false
+    } else {
+      obj.open = false;
+    }
+
+  });
+}, false);
+</script>
+
+<h1>A proof of Neyman-Pearson Lemma</h1>
+<p>\(\renewcommand{\P}{\mathbb{P}}\)
+\(\newcommand{\E}{\mathbb{E}}\)
+\(\newcommand{\R}{\mathbb{R}}\)
+\(\newcommand{\1}{\textbf{1}}\)
+\(\newcommand{\d}{\textrm{d}}\)
+\(\newcommand{\Med}{\mathrm{Med}}\)
+\(\newcommand{\N}{\mathbb{N}}\)</p>
+<p><strong>Theorem</strong></p>
+<p>Let \(P_0\) and \(P_1\) be probability distributions with densities \(p_0\) and \(p_1\) respectively with respect to a common measure \(\mu\).</p>
+<ul>
+<li>(i). For testing \(H_0:p_0\) versus \(H_1: p_1\) there exists a (randomized) test \(\phi\) and a constant \(k&gt;0\) such that \(\E_{p_0}[\phi(X)]=\alpha\), and
+$$\phi(x)=\begin{cases}
+0 &amp; \text{if } p_1(x) &lt; kp_0(x)\\
+1 &amp; \text{if } p_1(x) &gt; kp_0(x).
+\end{cases}$$</li>
+<li>(ii). For any test \(\psi\) and \(k&gt;0\), it holds that
+$$k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)]\ge \int_\R \min(kp_0(x), p_1(x)) \d \mu(x),$$
+Moreover, equality holds for a likelihood ratio test, e.g. \(\psi = \phi\) whatever its value when \(p_1(x) = kp_0(x)\).</li>
+</ul>
+<blockquote>
+<p><em>Remarks</em>:</p>
+<ul>
+<li>Result (i) says that for any type I error \(\alpha \in (0,1)\), there exists a likelihood ratio test with exactly level \(\alpha\)·</li>
+<li>A consequence of (ii) is that for a (randomized) test \(\psi\), if the type I error \(\E_{p_0}[\psi(X)]\) is fixed equal to some \(\alpha \in (0,1)\), then the test that achieve the minimal type II error \(\E_{p_1}[1-\psi(X)]\) is the likelihood ratio test of level \(\alpha\). Hence, the liklihood ratio test is the most powerful test for testing simple hypotheses.</li>
+<li>One may notice that in the case \(k=1\) and if \(\mu(\{x: p_1(x)=p_0(x)\})=0\) , \(\int_\R \min(p_0(x), p_1(x)) \d\mu(x) = 1-TV(P_0, P_1)\). Similarly, the quantity \(\int_\R \min(kp_0(x), p_1(x)) \d \mu(x)\) can be interpreted as a weighted similarity measure between \(P_0\) and \(P_1\).</li>
+</ul>
+</blockquote>
+<p><em>Proof of the theorem</em></p>
+ <br /><h2><strong,id=1>1.</strong> Proof of (i) follows from the fact that \(c \mapsto \P_{p_0}(p_1(X)&gt; cp_0(x))\) is non-increasing and by tuning appropriately the value of \(\phi\) when \(p_1(x)=k p_0(x)\) if there is a jump of \(c \mapsto \P_{p_0}(p_1(X)&gt; cp_0(x))\)  at this point.</h2> 
+<details><summary></summary><br /><h3><strong,id=1.1>1.1.</strong> For some \(c&gt;0\), let \(\alpha(c) = \P_{p_0}(p_1(X)&gt; cp_0(x))\). We have,</h3> 
+<p>$$\alpha(c) = \P_{p_0}\left( \frac{p_1(X)}{p_0(X)}\ge c \right).$$</p>
+<details><summary></summary><br /><h4><strong,id=1.1.1>1.1.1.</strong> The probability is taken under \(p_0\), hence it only needs to be considered when \(p_0(x)&gt;0\).</h4> 
+ </details><br /><h3><strong,id=1.2>1.2.</strong> Hence, \(1-\alpha(c)\) is a c.d.f. and in particular, \(\alpha(c)\) is non-increasing and continuous on the right.<a id="step:continuity_alpha"></a></h3> 
+ <br /><h3><strong,id=1.3>1.3.</strong> Let \(\alpha(k-0)=\lim_{c \to k, c &lt; k} \alpha(c)\) be the limit by the left of \(\alpha(c)\) in \(c=k\) and let \(k\) be such that \(\alpha(k)\le \alpha \le \alpha(k-0) \). Define <a id="step:def_phi"></a></h3> 
+<p>$$\phi(x)=\begin{cases}
+0 &amp; \text{if } p_1(x) &gt; kp_0(x)\\
+\frac{\alpha-\alpha(k-0)}{ \alpha(k-0)-\alpha(k)} &amp; \text{if }p_1(x)=kp_0(x)\\
+1 &amp; \text{if } p_1(x) &lt; kp_0(x).
+\end{cases}$$
+With this definition of \(\phi\), we have \(\E_{p_0}[\phi(X)]=\alpha\).</p>
+<details><summary></summary><br /><h4><strong,id=1.3.1>1.3.1.</strong> Existence of \(k\): we have \(\alpha(0)=\P_{p_0}(p_1(X)\ge 0)=1\) and \(\alpha(\infty)=\P_{p_0}(p_1(X)\ge \infty)=0\).</h4> 
+<p>Then, because \(\alpha\) is right-continuous and non-increasing (See Step <a href="#step:continuity_alpha">1.2</a>), by intermediate valuer theorem, \(k\) such that \(\alpha(k)\le \alpha \le \alpha(k-0)\) exists.</p>
+ <br /><h4><strong,id=1.3.2>1.3.2.</strong> \(\E_{p_0}[\phi(X)]=\alpha\): we have,</h4> 
+<p>$$\E_{p_0}[\phi(X)]=\P_{p_0}\left( \frac{p_1(x)}{p_0(x)}&gt;k \right)+\frac{\alpha-\alpha(k-0)}{ \alpha(k-0)-\alpha(k)}\P_{p_0}\left( \frac{p_1(x)}{p_0(x)}=k \right)$$
+by continuity on the right, \(\P_{p_0}\left( \frac{p_1(x)}{p_0(x)}=k \right)=\alpha(k-0)-\alpha(k)\) and moreover, by definition of \(k\),  \(\P_{p_0}\left( \frac{p_1(x)}{p_0(x)}&gt;k \right) = \alpha(k-0)\). Hence \(\E_{p_0}[\phi(X)]=\alpha\).</p>
+ </details></details><br /><h2><strong,id=2>2.</strong> Proof of (ii) follows by first showing that the value of \(\psi\) when \(kp_0(x)=p_1(x)\) has no incidence on the value of  not change the value of \(k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)]\). Then, we show equality in the inequality of (ii) for \(\psi=\phi \) and then finally we proove that for any \(\psi\),</h2> 
+<p>$$k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)] \ge k\E_{p_0}[\phi(X)]+ \E_{p_1}[1-\phi(X)],$$
+which concludes the argument.</p>
+<details><summary></summary><br /><h3><strong,id=2.1>2.1.</strong> Influence of the value of \(\psi\) when \(kp_0(x)=p_1(x)\): we have <a id="step:equality"></a></h3> 
+<p>$$
+\begin{align*}
+k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)]&amp;= 1+k\E_{p_0}[\psi(X)]- \E_{p_1}[\psi(X)]\\
+&amp;=1+\int (kp_0(x)-p_1(x))\psi(X) \d \mu(x)\\
+&amp;=1+\int (kp_0(x)-p_1(x)) \1\{kp_0(x) \neq p_1(x)\}\psi(X) \d \mu(x)
+\end{align*}$$
+Hence, \(k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)]\) has the same value if we change the value given to \(\psi\) when \(kp_0(x)=p_1(x)\).</p>
+ <br /><h3><strong,id=2.2>2.2.</strong> In the case of \(\psi=\phi\), from Step <a href="#step:equality">2.1</a>, we have <a id="step:phi_equal1"></a></h3> 
+<p>$$
+\begin{align*}
+k\E_{p_0}[\phi(X)]+ \E_{p_1}[1-\phi(X)]&amp;=1+\int (kp_0(x)-p_1(x)) \1\{kp_0(x) \neq p_1(x)\}\phi(X) \d \mu(x))\\
+&amp;=1+\int (kp_0(x)-p_1(x)) \1\{\phi(X)=1\} \d \mu(x))\\
+&amp;=1+k\P_{p_0}(\phi(X)=1)-\P_{p_1}(\phi(X)=1)\\
+&amp;=k\P_{p_0}(\phi(X)=1)+ \P_{p_1}(\phi(X)&lt;1)
+\end{align*}
+$$</p>
+ <br /><h3><strong,id=2.3>2.3.</strong> We have <a id="step:phi_equal2"></a></h3> 
+<p>$$\begin{align}
+k&amp;\P_{p_0}(\phi(X)=1)+ \P_{p_1}(\phi(X)=0) \\
+=&amp; k\int_{\R}p_0(x)\1\{\phi(x)=1\} \d \mu(x) + \int_{\R}p_1(x)\1\{\phi(x)=0\} \d \mu(x)\\
+=&amp; k\int_{\R}p_0(x)\1\{p_1(x) &gt; kp_0(x)\} \d \mu(x) + \int_{\R}p_1(x)\1\{p_1(x) &lt; kp_0(x)\} \d \mu(x)\\
+=&amp; \int_{\R}\min(kp_0(x), p_1(x))\1\{p_1(x) &gt; kp_0(x)\} \d \mu(x) + \int_{\R}\min(kp_0(x), p_1(x))\1\{p_1(x) &lt; kp_0(x)\} \d \mu(x)\\
+=&amp; \int_{\R}\min(kp_0(x), p_1(x)) \1\{kp_0(x) \neq  p_1(x)\} \d \mu(x). 
+\end{align}
+$$</p>
+ <br /><h3><strong,id=2.4>2.4.</strong> Observe that</h3> 
+<p>$$ \P_{p_1}(\phi(X) \in (0,1))=\int_{\R}\min(kp_0(x), p_1(x)) \1\{kp_0(x) =   p_1(x)\} \d \mu(x),$$
+and together with Steps <a href="#step:equality">2.1</a>, <a href="#step:phi_equal1">2.2</a>, and <a href="#step:phi_equal2">2.3</a>, we get the equality in (ii).</p>
+ <br /><h3><strong,id=2.5>2.5.</strong> Optimality of \(\phi\): from Step <a href="#step:equality">2.1</a>, we have</h3> 
+<p>$$
+\begin{align*}
+k\E_{p_0}[\psi(X)]+ \E_{p_1}[1-\psi(X)]&amp;= 1+\int (kp_0(x)-p_1(x)) \1\{kp_0(x) \neq p_1(x)\}\psi(x) \d \mu(x)\\
+&amp;= 1+\int (kp_0(x)-p_1(x)) \psi(x)\1\{\phi(x)=1\} \d \mu(x)+\int (kp_0(x)-p_1(x))\psi(X)\1\{\phi(x)=0\} \d \mu(x)\\
+&amp;=1-\int |kp_0(x)-p_1(x)| \psi(x)\1\{\phi(x)=1\} \d \mu(x)+\int |kp_0(x)-p_1(x)|\psi(X)\1\{\phi(x)=0\} \d \mu(x)\\
+&amp;=1+\int |kp_0(x)-p_1(x)| \psi(x)(\1\{\phi(x)=0\}-\1\{\phi(x)=1\}) \d \mu(x)
+\end{align*}
+$$
+The above is minimized by \(\psi = \phi\).</p>
+</details><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+</body>
+</html>
