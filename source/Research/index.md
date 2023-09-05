@@ -22,3 +22,4 @@ I contribute to `scikit-learn-extra` library, a `scikit-learn-contrib` repositor
 
 Here is a small notebook to illustrate some of the applications developped during my PhD: [colab link](https://colab.research.google.com/drive/1yyGCgmif1EXBNLBgM0DaZvPLyHuJW8zf?usp=sharing).
 
+Here is also a small wiki on some uses of ML in corrupted setting:  <a href="/assets/corrupted_wiki.html" target="_blank">here</a>.
