@@ -18,7 +18,7 @@ Title: Home
 Post-Doc at [SCOOL](https://team.inria.fr/scool/).
 
 ### \# Keywords
-Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
+Robust Statistics, Sequential learning, M-estimation, Median of Means, Machine Learning.
 
 
 ### \# Contact
@@ -29,4 +29,3 @@ France
 
 Mail: timothee.mathieu at inria.fr
 
-Find my CV <a href="/assets/cv.pdf" target="_blank">here</a>.
