@@ -2,31 +2,33 @@
 Title: Home
 ---
 
-# [Home ∼ ]$ _
+Website moved to https://tmathieu.gitlabpages.inria.fr/home/
 
----
+<!-- # [Home ∼ ]$ _ -->
 
-&nbsp;
-<p align="center">
+<!-- --- -->
 
-<img src="/assets/histo.png" width="70%">
+<!-- &nbsp; -->
+<!-- <p align="center"> -->
 
-</p>
-&nbsp;
+<!-- <img src="/assets/histo.png" width="70%"> -->
 
-### \# Occupation
-Post-Doc at [SCOOL](https://team.inria.fr/scool/).
+<!-- </p> -->
+<!-- &nbsp; -->
 
-### \# Keywords
-Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning.
+<!-- ### \# Occupation -->
+<!-- Post-Doc at [SCOOL](https://team.inria.fr/scool/). -->
+
+<!-- ### \# Keywords -->
+<!-- Robust Statistics, M-estimation, Median of Means, Reinforcement Learning, Machine Learning. -->
 
 
-### \# Contact
+<!-- ### \# Contact -->
 
-Inria Lille, Nord Europe
-59650 Villeneuve d'ascq
-France
+<!-- Inria Lille, Nord Europe -->
+<!-- 59650 Villeneuve d'ascq -->
+<!-- France -->
 
-Mail: timothee.mathieu at inria.fr
+<!-- Mail: timothee.mathieu at inria.fr -->
 
-Find my CV <a href="/assets/cv.pdf" target="_blank">here</a>.
+<!-- Find my CV <a href="/assets/cv.pdf" target="_blank">here</a>. -->
